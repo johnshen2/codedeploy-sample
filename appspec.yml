@@ -8,7 +8,7 @@ hooks:
     - location: ./install_dependencies
       timeout: 300
       runas: root
-	- location: ./stop_server
+    - location: ./stop_server
       timeout: 300
       runas: root
     - location: ./start_server
